@@ -1,0 +1,146 @@
+@import "../../asset/css/index.css";
+.container {
+  width: 90%;
+  margin: 30px auto;
+}
+.jobdetail {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  gap: 10px;
+}
+
+.main__boxdetail {
+  display: grid;
+  margin-top: 20px;
+  grid-template-columns: 1fr repeat(1, 30%);
+  gap: 15px;
+}
+
+ul.benefit li {
+  padding: 0px 0px 10px 5px;
+}
+
+.boxinfor {
+  display: flex;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+.boxinfor_infor h3 {
+  font-size: 20px;
+}
+
+.infor {
+  display: flex;
+  justify-content: space-between;
+}
+
+.boxinfor_infor {
+  width: 90%;
+  margin-left: 40px;
+}
+
+.infor_pa {
+  margin-top: 10px;
+}
+
+.infor_pa p {
+  padding: 3px;
+  font-size: 16px;
+}
+
+.l_btn {
+  border: 1px solid var(--btn-default-color);
+  color: var(--btn-default-color);
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin: 5px 0;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+  transform: scale(1.02) translate(0, 0);
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.2);
+  width: 120px;
+}
+.infor_btn {
+  margin-right: 50px;
+}
+button.l_btn.apply {
+  background-color: orange;
+  color: white;
+}
+
+.l_btn:hover {
+  transform: scale(1.02) translate(0, -3px);
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+button.l_btn.save {
+  border: 3px solid orange;
+  color: orange;
+}
+
+/* //////////////////////////////////////// */
+.boxdetaill__main_content {
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 3px 33px;
+  border-radius: 20px;
+}
+.boxdetaill__main_content h3 {
+  padding: 22px 0px 20px 5px;
+  color: #008cff;
+  font-size: 18px;
+}
+
+/* /////////////////////////////////// */
+.exconten__summary {
+  border: 2px solid orange;
+//   box-shadow: 2px 2px 2px 2px rgb(255 166 0 / 49%);
+  border-radius: 20px;
+  padding: 20px 36px;
+}
+
+.extraconten__similar {
+  margin-top: 30px;
+  padding: 8px 2px 2px 2px;
+  border-radius: 20px;
+  border: 2px solid orange;
+//   box-shadow: 2px 2px 2px 2px rgb(255 166 0 / 49%);
+}
+
+.exconten_company ul {
+  padding: 5px;
+}
+
+a.similar_cty_link {
+  display: flex;
+}
+
+.similar_cty_link img {
+  width: 65px;
+}
+
+.similar_header {
+  font-size: 24px;
+  margin-left: 15px;
+  color: orange;
+}
+
+.similar_cty {
+  border: solid rgb(249, 239, 239);
+  border-radius: 10px;
+  margin: 10px 7px 0px 7px;
+}/*# sourceMappingURL=detailjob.css.map */
+.summary {
+  display: flex;
+}
+ul.summary.att {
+  border-bottom: 1px solid rgba(206, 211, 213, 0.5);
+}
+li.summary_icon {
+  font-size: 20px;
+  margin: 8px 8px;
+}
+li.summary_infor {
+  margin: 5px;
+}
